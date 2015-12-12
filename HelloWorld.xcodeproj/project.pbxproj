@@ -14,6 +14,7 @@
 		E6F606411C1C4A5A0032259D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6063F1C1C4A5A0032259D /* LaunchScreen.storyboard */; };
 		E6F6064C1C1C4A5B0032259D /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6064B1C1C4A5B0032259D /* HelloWorldTests.swift */; };
 		E6F606571C1C4A5B0032259D /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F606561C1C4A5B0032259D /* HelloWorldUITests.swift */; };
+		E6F6066D1C1C50D70032259D /* nakami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6F6066C1C1C50D70032259D /* nakami.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E6F606521C1C4A5B0032259D /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F606561C1C4A5B0032259D /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		E6F606581C1C4A5B0032259D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F6066C1C1C50D70032259D /* nakami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nakami.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E6F6062A1C1C4A5A0032259D = {
 			isa = PBXGroup;
 			children = (
+				E6F6066C1C1C50D70032259D /* nakami.jpg */,
 				E6F606351C1C4A5A0032259D /* HelloWorld */,
 				E6F6064A1C1C4A5B0032259D /* HelloWorldTests */,
 				E6F606551C1C4A5B0032259D /* HelloWorldUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				E6F606411C1C4A5A0032259D /* LaunchScreen.storyboard in Resources */,
 				E6F6063E1C1C4A5A0032259D /* Assets.xcassets in Resources */,
+				E6F6066D1C1C50D70032259D /* nakami.jpg in Resources */,
 				E6F6063C1C1C4A5A0032259D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,9 +405,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ami.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,9 +418,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ami.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
